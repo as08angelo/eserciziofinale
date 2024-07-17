@@ -1,8 +1,15 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import GridCard from "./components/GridCard";
+import MainRoutes from "./routes/mainRoutes";
 
 function App() {
-  return <GridCard/>;
+  return (
+    <div className="App">
+        <BrowserRouter>
+          <MainRoutes />
+        </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
