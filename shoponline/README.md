@@ -1,3 +1,18 @@
+# Description Project Test
+    
+    Project Test: E-commerce RayBan
+    Obiettivo: Pagina prodotti - Carrello
+    Layout, font family, colori e immagini: Coerenza visiva con il brand RayBan.
+    
+    Le components principali sono quelle che definiscono gli elementi dell'interfaccia utente, in file .tsx, modificandone il loro aspetto nei rispettivi css. Le Routes /products e /home, ci permettono di navigare all'interno di ciascuna pagina, senza che questi venga ricaricato nuovamente.
+
+    Il logo presente nell'Header rimanda alla home page del sito, mentre le altre voci del menù di navigazione rimandano alla sezione products. Il Carrello incrementa il suo valore numerico all'aumentare dei prodotti selezionati.
+
+    Project Test ©CodeCrafters
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +59,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+

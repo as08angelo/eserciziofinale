@@ -14,7 +14,7 @@ export function Header() {
         <header className="header_menu">
 
             <div className="logo-container">
-                    <img src={Logo} alt="Logo" className="logo" />
+                    <a href="/home"><img src={Logo} alt="Logo" className="logo" /> </a>
                 </div>
 
             <div>
