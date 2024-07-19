@@ -16,9 +16,9 @@ export default function ProductCard ({ product } : { product: Product }) {
                     <p>{product.price}</p>
                     <p>{product.description}</p>
                 </div>
-                <div>
+                <div className="button_products">
                     <RoundedButton 
-                    label="Add to Cart" 
+                    label="AGGIUNGI AL CARRELLO" 
                     onClick={() => {
                         addToCart(product, amount);
                         setAmount(1);
