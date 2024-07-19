@@ -1,0 +1,31 @@
+/* Cart.css */
+.cart {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cart li div {
+    flex: 1;
+}
