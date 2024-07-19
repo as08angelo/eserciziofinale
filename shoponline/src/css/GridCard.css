@@ -1,13 +1,90 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url(../assets/font/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'MyFont2';
+    src: url(../assets/font/Lato/Lato-Light.ttf) format('truetype');
+}
+
 .center-grid{
     display: grid;
     place-items: center;
+    margin: 0;
     padding: 5rem 0;
     height: max-content;
+    
 }
 
 .products-grid{
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
 
+.products-card img{
+    width: 100%;
+}
 
+.products-card h3{
+    font-family: 'Myfont';
+    font-size: 24px;
+    text-align: start;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.products-card p{
+    font-family: 'Myfont2';
+    font-size: 16px;
+    text-align: start;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.button_products{
+    margin: 0;
+    padding: 1rem 0;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.button_products label{
+    font-family: 'MyFont';
+
+}
+
+.rounded-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.rounded-button img {
+    margin-right: 10px;
+    height: 20px; 
+    width: auto;
+}
+
+.rounded-button p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.rounded-button:hover {
+    border: 2px solid rgb(255, 13, 0);
+    color: black;
 }
